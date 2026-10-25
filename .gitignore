@@ -1,0 +1,31 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+config.json
+config.*.json
+*.local.json
+*keys*.tsv
+*.pem
+*.key
+# Private data, indexes and runtime output
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.wal
+*.log
+*.zip
+*.tsv
+state/
+state.noindex/
+logs/
+media/
+cache/
+work/
+# Local tooling and OS files
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

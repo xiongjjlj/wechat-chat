@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信聊天查询"
+  short_description: "查询用户自己的微信只读副本与本地索引，核对账号、上下文及附件覆盖"
+  default_prompt: "使用 $wechat-chat 查询我已接入的本地微信数据，先检查账号与同步状态，再提供有来源的结果。"
